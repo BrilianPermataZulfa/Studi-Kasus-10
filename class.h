@@ -7,7 +7,7 @@ class Pointer{
   private:
     int data;
     int *nim;
-    int nimMhs[5];
+    int nimMhs[100];
     string *nama;
-    string namaMhs[5];
+    string namaMhs[100];
 };
