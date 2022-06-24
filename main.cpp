@@ -8,6 +8,5 @@ int main(){
   x.Input();
   x.Proses();
   x.Output();
-  
   return 0;
 }
