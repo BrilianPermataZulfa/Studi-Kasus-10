@@ -1,10 +1,10 @@
 void Pointer::Output(){
-    nim -=5 ;
-    nama -= 5; 
+    nim -= data ;
+    nama -= data; 
     cout << "\n\n=========================================="<<endl;
     cout<<"   Menampilkan data di dalam pointer: "<<endl;
     cout << "=========================================="<<endl;
-    for (int i=0; i<5; i++) {
+    for (int i=0; i<data; i++) {
       cout << "\n\nNama Finalis ke-" << i+1 << " : ";
       cout << *nama ;
       nama += 1;
